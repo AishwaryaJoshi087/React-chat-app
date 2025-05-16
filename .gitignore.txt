@@ -1,0 +1,46 @@
+# === Global ===
+node_modules/
+.env
+.env.*.local
+.DS_Store
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+package-lock.json
+pnpm-lock.yaml
+yarn.lock
+
+# === Root-level installs (if any) ===
+/node_modules
+
+# === Frontend (Vite/React) ===
+/client/node_modules
+/client/.env
+/client/.env.local
+/client/dist
+/client/.vite
+/client/.turbo
+/client/package-lock.json
+
+# === Backend (Express) ===
+/server/node_modules
+/server/.env
+/server/.env.local
+/server/package-lock.json
+
+# === IDE and OS Junk ===
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+Thumbs.db
+ehthumbs.db
+
+# === Testing and Coverage ===
+coverage/
+.nyc_output/
+
+# === Uploads or cache folders (if any) ===
+uploads/
+public/uploads/
