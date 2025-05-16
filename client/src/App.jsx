@@ -1,6 +1,6 @@
 import React, { Children, useState, useEffect } from "react";
 import { BrowserRouter, Routes, Route, Navigate } from "react-router-dom";
-import Auth from "./pages/Auth"; // Ensure the correct path
+import Auth from "./pages/auth"; // Ensure the correct path
 import Profile from "./pages/profile";
 import Chat from "./pages/chat";
 import { useAppStore } from "./store";
