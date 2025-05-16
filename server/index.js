@@ -55,7 +55,7 @@ if (process.env.NODE_ENV === "production") {
 }
 
 const server = app.listen(port, () => {
-  console.log(Server is running at http://localhost:${port});
+  console.log(`Server is running at http://localhost:${port}`);
 });
 
 setupSocket(server);
