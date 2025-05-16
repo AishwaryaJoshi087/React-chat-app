@@ -20,7 +20,7 @@ const databaseURL = process.env.DATABASE_URL;
 
 // Fix __dirname and __filename for ES Modules
 const __filename = fileURLToPath(import.meta.url);
-const _dirname = path.dirname(_filename);
+const __dirname = path.dirname(__filename);
 
 // CORS setup
 app.use(
